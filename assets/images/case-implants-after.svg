@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgImpAfter" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </radialGradient>
+    <linearGradient id="zirconiaWhite" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="45%" stop-color="#fdfbf7"/>
+      <stop offset="80%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="pinkPorcelain" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="100%" stop-color="#be123c"/>
+    </linearGradient>
+    <linearGradient id="titaniumGleam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="50%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgImpAfter)"/>
+  <rect x="25" y="25" width="750" height="450" rx="16" fill="none" stroke="rgba(197, 160, 89, 0.45)" stroke-width="1.8"/>
+  <text x="50" y="65" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#c5a059" letter-spacing="2">FULL ARCH IMMEDIATE RESTORATION • CASE #102</text>
+  <text x="750" y="65" text-anchor="end" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#10b981">ALL-ON-4 GUIDED TITANIUM + ZIRCONIA</text>
+
+  <!-- Reconstructed Pink Aesthetic Soft Tissue Base -->
+  <path d="M 110 200 C 180 135, 250 155, 300 175 C 350 145, 380 150, 400 165 C 420 150, 450 145, 500 175 C 550 155, 620 135, 690 200 L 690 160 C 600 110, 200 110, 110 160 Z" fill="url(#pinkPorcelain)"/>
+
+  <!-- Full 12-Unit Continuous Monolithic Zirconia Arch -->
+  <g>
+    <!-- Right Molar (16) -->
+    <path d="M 120 205 Q 145 210, 140 280 Q 120 285, 115 240 Z" fill="url(#zirconiaWhite)" stroke="#cbd5e1"/>
+    <!-- Right Premolar (14) -->
+    <path d="M 148 200 Q 175 205, 170 295 Q 150 298, 145 250 Z" fill="url(#zirconiaWhite)" stroke="#cbd5e1"/>
+    <!-- Right Canine (13) -->
+    <path d="M 180 190 Q 215 195, 210 315 Q 185 318, 178 260 Z" fill="url(#zirconiaWhite)" stroke="#cbd5e1"/>
+    <!-- Right Lateral (12) -->
+    <path d="M 220 185 Q 255 185, 250 330 Q 225 332, 218 280 Z" fill="url(#zirconiaWhite)" stroke="#cbd5e1"/>
+    <!-- Right Central (11) -->
+    <path d="M 265 178 Q 325 175, 322 345 Q 285 348, 260 338 Z" fill="url(#zirconiaWhite)" stroke="#cbd5e1" stroke-width="1.2"/>
+    <!-- Left Central (21) -->
+    <path d="M 330 175 Q 390 178, 385 345 Q 360 348, 325 345 Z" fill="url(#zirconiaWhite)" stroke="#cbd5e1" stroke-width="1.2"/>
+    <!-- Left Lateral (22) -->
+    <path d="M 395 185 Q 430 185, 425 330 Q 400 332, 390 280 Z" fill="url(#zirconiaWhite)" stroke="#cbd5e1"/>
+    <!-- Left Canine (23) -->
+    <path d="M 435 190 Q 470 195, 465 315 Q 440 318, 432 260 Z" fill="url(#zirconiaWhite)" stroke="#cbd5e1"/>
+    <!-- Left Premolar (24) -->
+    <path d="M 475 200 Q 502 205, 498 295 Q 478 298, 472 250 Z" fill="url(#zirconiaWhite)" stroke="#cbd5e1"/>
+    <!-- Left Molar (26) -->
+    <path d="M 508 205 Q 532 210, 528 280 Q 508 285, 502 240 Z" fill="url(#zirconiaWhite)" stroke="#cbd5e1"/>
+
+    <!-- Light Gleams -->
+    <line x1="285" y1="210" x2="310" y2="290" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <line x1="345" y1="210" x2="370" y2="290" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <!-- Lower Lip Framing -->
+  <path d="M 85 310 C 250 415, 550 415, 715 310 C 650 455, 150 455, 85 310 Z" fill="#9d174d" opacity="0.95"/>
+
+  <g transform="translate(50, 420)">
+    <rect width="280" height="34" rx="8" fill="rgba(8,12,20,0.85)" stroke="#10b981" stroke-width="1"/>
+    <circle cx="18" cy="17" r="5" fill="#10b981"/>
+    <text x="32" y="21" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#a7f3d0">POST-OP: 1-DAY ALL-ON-4 PROTOCOL</text>
+  </g>
+</svg>

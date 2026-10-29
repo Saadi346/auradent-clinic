@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#042f2e" />
+      <stop offset="100%" stop-color="#134e4a" />
+    </linearGradient>
+    <linearGradient id="scrubGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+    <linearGradient id="skinGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="30" fill="url(#bgGrad2)"/>
+  <circle cx="200" cy="140" r="130" fill="#2dd4bf" opacity="0.12"/>
+  
+  <!-- Hair back -->
+  <ellipse cx="200" cy="180" rx="85" ry="90" fill="#78350f"/>
+  
+  <!-- Body -->
+  <path d="M90 400 C90 280, 140 250, 200 250 C260 250, 310 280, 310 400 Z" fill="url(#scrubGrad2)"/>
+  <polygon points="175,250 200,305 225,250" fill="#fef3c7"/>
+  
+  <!-- Neck -->
+  <rect x="175" y="195" width="50" height="60" rx="10" fill="#fef3c7"/>
+  <!-- Head -->
+  <ellipse cx="200" cy="150" rx="55" ry="65" fill="#fef3c7"/>
+  
+  <!-- Hair front style -->
+  <path d="M140 140 C140 75, 260 75, 260 140 C240 100, 190 90, 140 140 Z" fill="#92400e"/>
+  <path d="M140 135 C135 180, 145 220, 155 240 C150 200, 145 160, 145 135 Z" fill="#78350f"/>
+  <path d="M260 135 C265 180, 255 220, 245 240 C250 200, 255 160, 255 135 Z" fill="#78350f"/>
+  
+  <!-- Eyes -->
+  <circle cx="178" cy="145" r="4.5" fill="#1e293b"/>
+  <circle cx="222" cy="145" r="4.5" fill="#1e293b"/>
+  <path d="M170 135 Q178 130 186 135" stroke="#78350f" stroke-width="2.5" fill="none"/>
+  <path d="M214 135 Q222 130 230 135" stroke="#78350f" stroke-width="2.5" fill="none"/>
+  
+  <!-- Smile -->
+  <path d="M184 178 Q200 196 216 178" stroke="#be123c" stroke-width="3" fill="#ffffff" stroke-linecap="round"/>
+  
+  <g transform="translate(250, 310)">
+    <rect width="120" height="32" rx="16" fill="#1e1b4b" opacity="0.9"/>
+    <text x="60" y="21" fill="#a78bfa" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">ORTHODONTICS</text>
+  </g>
+</svg>

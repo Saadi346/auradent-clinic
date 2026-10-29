@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="scrubGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5d0b5" />
+      <stop offset="100%" stop-color="#e2b192" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="400" height="400" rx="30" fill="url(#bgGrad)"/>
+  <circle cx="200" cy="140" r="130" fill="#0284c7" opacity="0.15"/>
+  
+  <!-- Body / Scrubs -->
+  <path d="M90 400 C90 280, 140 250, 200 250 C260 250, 310 280, 310 400 Z" fill="url(#scrubGrad)"/>
+  <!-- V-Neck -->
+  <polygon points="170,250 200,310 230,250" fill="url(#skinGrad)"/>
+  <!-- Stethoscope / Medical badge -->
+  <path d="M140 270 Q200 370 260 270" stroke="#f8fafc" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <circle cx="200" cy="340" r="12" fill="#0ea5e9" stroke="#ffffff" stroke-width="4"/>
+  
+  <!-- Neck -->
+  <rect x="175" y="195" width="50" height="60" rx="10" fill="url(#skinGrad)"/>
+  
+  <!-- Head -->
+  <ellipse cx="200" cy="150" rx="55" ry="65" fill="url(#skinGrad)"/>
+  
+  <!-- Hair (Sleek male doctor) -->
+  <path d="M145 140 C145 80, 255 80, 255 140 C255 110, 240 95, 200 95 C160 95, 145 110, 145 140 Z" fill="#334155"/>
+  
+  <!-- Ears -->
+  <circle cx="145" cy="155" r="12" fill="url(#skinGrad)"/>
+  <circle cx="255" cy="155" r="12" fill="url(#skinGrad)"/>
+  
+  <!-- Eyes & Glasses -->
+  <rect x="160" y="135" width="32" height="24" rx="6" fill="none" stroke="#475569" stroke-width="3"/>
+  <rect x="208" y="135" width="32" height="24" rx="6" fill="none" stroke="#475569" stroke-width="3"/>
+  <line x1="192" y1="147" x2="208" y2="147" stroke="#475569" stroke-width="3"/>
+  <circle cx="176" cy="147" r="4" fill="#1e293b"/>
+  <circle cx="224" cy="147" r="4" fill="#1e293b"/>
+  
+  <!-- Smile -->
+  <path d="M185 180 Q200 195 215 180" stroke="#991b1b" stroke-width="3" fill="#ffffff" stroke-linecap="round"/>
+  
+  <!-- Specialist badge -->
+  <g transform="translate(260, 310)">
+    <rect width="110" height="32" rx="16" fill="#064e3b" opacity="0.9"/>
+    <text x="55" y="21" fill="#34d399" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">IMPLANTS</text>
+  </g>
+</svg>

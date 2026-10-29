@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgWhitening" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#182033"/>
+      <stop offset="100%" stop-color="#0a0d18"/>
+    </radialGradient>
+    <linearGradient id="stainEnamel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff8db"/>
+      <stop offset="35%" stop-color="#edd188"/>
+      <stop offset="70%" stop-color="#ca8a04"/>
+      <stop offset="100%" stop-color="#854d0e"/>
+    </linearGradient>
+    <linearGradient id="gumWhitening" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgWhitening)"/>
+  <rect x="25" y="25" width="750" height="450" rx="16" fill="none" stroke="rgba(202, 138, 4, 0.4)" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <text x="50" y="65" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#eab308" letter-spacing="2">EXTRINSIC ENAMEL DISCOLORATION • CASE #104</text>
+  <text x="750" y="65" text-anchor="end" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#94a3b8">SHADE: VITA C3 (COFFEE &amp; NICOTINE)</text>
+
+  <!-- Gums -->
+  <path d="M 120 220 C 180 160, 240 180, 280 200 C 325 160, 365 165, 395 190 C 425 165, 465 160, 510 200 C 550 180, 610 160, 680 220 L 680 180 C 600 120, 200 120, 120 180 Z" fill="url(#gumWhitening)"/>
+
+  <!-- Severely Stained Enamel Teeth -->
+  <g>
+    <!-- Right Canine -->
+    <path d="M 170 215 Q 195 220, 190 310 Q 170 315, 165 245 Z" fill="url(#stainEnamel)" stroke="#78350f"/>
+    <!-- Right Lateral -->
+    <path d="M 205 205 Q 235 205, 245 320 Q 220 322, 210 305 Z" fill="url(#stainEnamel)" stroke="#78350f"/>
+    <!-- Right Central (11) -->
+    <path d="M 255 192 Q 320 190, 332 340 Q 295 342, 252 328 Z" fill="url(#stainEnamel)" stroke="#78350f" stroke-width="1.2"/>
+    <!-- Left Central (21) -->
+    <path d="M 334 190 Q 398 192, 412 340 Q 375 342, 334 340 Z" fill="url(#stainEnamel)" stroke="#78350f" stroke-width="1.2"/>
+    <!-- Left Lateral -->
+    <path d="M 415 205 Q 445 205, 455 320 Q 430 322, 420 305 Z" fill="url(#stainEnamel)" stroke="#78350f"/>
+    <!-- Left Canine -->
+    <path d="M 465 215 Q 490 220, 485 310 Q 465 315, 460 245 Z" fill="url(#stainEnamel)" stroke="#78350f"/>
+
+    <!-- Dark Cervical Staining Bands -->
+    <path d="M 260 205 Q 320 205, 330 220" stroke="#713f12" stroke-width="8" opacity="0.6"/>
+    <path d="M 335 205 Q 395 205, 410 220" stroke="#713f12" stroke-width="8" opacity="0.6"/>
+  </g>
+
+  <!-- Lower Lip -->
+  <path d="M 95 310 C 250 405, 550 405, 705 310 C 650 445, 150 445, 95 310 Z" fill="#9f1239" opacity="0.95"/>
+
+  <g transform="translate(50, 420)">
+    <rect width="250" height="34" rx="8" fill="rgba(8,12,20,0.85)" stroke="#ca8a04" stroke-width="1"/>
+    <circle cx="18" cy="17" r="5" fill="#ca8a04"/>
+    <text x="32" y="21" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#fef08a">PRE-OP: CHRONIC STAINING</text>
+  </g>
+</svg>

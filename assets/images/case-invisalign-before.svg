@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgInv" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#182033"/>
+      <stop offset="100%" stop-color="#0a0d18"/>
+    </radialGradient>
+    <linearGradient id="naturalToothPre" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fefce8"/>
+      <stop offset="50%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#eab308"/>
+    </linearGradient>
+    <linearGradient id="gumInv" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgInv)"/>
+  <rect x="25" y="25" width="750" height="450" rx="16" fill="none" stroke="rgba(197, 160, 89, 0.3)" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <text x="50" y="65" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#c5a059" letter-spacing="2">ORTHODONTIC MALOCCLUSION • CASE #103</text>
+  <text x="750" y="65" text-anchor="end" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#94a3b8">4.2mm CENTRAL DIASTEMA &amp; ROTATION</text>
+
+  <!-- Gums with Wide Central Papilla Gap -->
+  <path d="M 120 220 C 180 160, 240 180, 280 200 C 310 165, 340 170, 355 195 C 365 210, 375 210, 385 195 C 400 170, 430 165, 460 200 C 500 180, 560 160, 680 220 L 680 180 C 600 120, 200 120, 120 180 Z" fill="url(#gumInv)"/>
+
+  <!-- Teeth with Large 4mm Midline Gap -->
+  <g>
+    <!-- Right Lateral (Rotated) -->
+    <path d="M 215 210 Q 240 210, 245 310 Q 225 315, 210 300 Z" fill="url(#naturalToothPre)" stroke="#a16207"/>
+    <!-- Right Central (11) - Shifted Right, Creating Diastema -->
+    <path d="M 255 195 Q 315 195, 310 335 Q 280 338, 250 320 Z" fill="url(#naturalToothPre)" stroke="#a16207" stroke-width="1.2"/>
+
+    <!-- Pronounced Dark Central Diastema Gap Between 310 and 365 -->
+    <rect x="312" y="195" width="46" height="145" fill="#000000" rx="4"/>
+    <line x1="312" y1="260" x2="358" y2="260" stroke="#f43f5e" stroke-width="2" stroke-dasharray="3 3"/>
+    <text x="335" y="250" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" fill="#f43f5e" text-anchor="middle">4.2mm</text>
+
+    <!-- Left Central (21) - Shifted Left -->
+    <path d="M 360 195 Q 420 195, 415 335 Q 385 338, 355 320 Z" fill="url(#naturalToothPre)" stroke="#a16207" stroke-width="1.2"/>
+    <!-- Left Lateral (Rotated) -->
+    <path d="M 425 210 Q 450 210, 455 310 Q 435 315, 420 300 Z" fill="url(#naturalToothPre)" stroke="#a16207"/>
+  </g>
+
+  <!-- Lower Lip -->
+  <path d="M 100 310 C 250 400, 550 400, 700 310 C 650 440, 150 440, 100 310 Z" fill="#9f1239" opacity="0.95"/>
+
+  <g transform="translate(50, 420)">
+    <rect width="250" height="34" rx="8" fill="rgba(8,12,20,0.85)" stroke="#f59e0b" stroke-width="1"/>
+    <circle cx="18" cy="17" r="5" fill="#f59e0b"/>
+    <text x="32" y="21" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#fef08a">PRE-OP: SPACING &amp; MISALIGNMENT</text>
+  </g>
+</svg>

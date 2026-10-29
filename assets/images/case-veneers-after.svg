@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGlowAfter" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#18243b"/>
+      <stop offset="100%" stop-color="#080c14"/>
+    </radialGradient>
+    <linearGradient id="lipGradientAfter" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#be185d"/>
+      <stop offset="100%" stop-color="#831843"/>
+    </linearGradient>
+    <linearGradient id="enamelPost" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#fdfbf7"/>
+      <stop offset="85%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="gumPost" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+    <linearGradient id="goldGlint" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#c5a059"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="500" fill="url(#bgGlowAfter)"/>
+
+  <!-- Clinical Precision Retractor Frame -->
+  <rect x="25" y="25" width="750" height="450" rx="16" fill="none" stroke="rgba(197, 160, 89, 0.45)" stroke-width="1.8"/>
+
+  <!-- Clinical Metadata Header -->
+  <text x="50" y="65" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#c5a059" letter-spacing="2">POST-OPERATIVE PERFECTION • CASE #101</text>
+  <text x="750" y="65" text-anchor="end" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#10b981">SHADE: BLEACH BL2 (IPS e.max® PORCELAIN)</text>
+
+  <!-- Upper Gums - Beautiful Symmetrical Zeniths -->
+  <path d="M 110 220 C 170 155, 230 175, 275 195 C 325 160, 365 165, 395 190 C 425 165, 465 160, 515 195 C 560 175, 620 155, 690 220 L 690 175 C 600 120, 200 120, 110 175 Z" fill="url(#gumPost)"/>
+
+  <!-- Symmetrical Perfect Porcelain Veneers -->
+  <g id="postOpTeeth">
+    <!-- Right First Premolar (14) -->
+    <path d="M 125 225 C 145 230, 160 265, 155 300 C 140 305, 125 285, 120 245 Z" fill="url(#enamelPost)" stroke="#e2e8f0" stroke-width="1"/>
+    <!-- Right Canine (13) -->
+    <path d="M 160 215 C 185 220, 205 260, 200 310 C 180 315, 165 295, 158 245 Z" fill="url(#enamelPost)" stroke="#e2e8f0" stroke-width="1"/>
+    <!-- Right Lateral (12) -->
+    <path d="M 205 205 C 235 205, 255 240, 250 325 C 228 328, 212 322, 202 308 Z" fill="url(#enamelPost)" stroke="#e2e8f0" stroke-width="1"/>
+    <!-- Right Central (11) - Restored, Golden Ratio -->
+    <path d="M 255 192 C 322 190, 335 235, 332 342 C 295 344, 260 340, 252 328 Z" fill="url(#enamelPost)" stroke="#e2e8f0" stroke-width="1.2"/>
+    <!-- Left Central (21) - Mirror Symmetry -->
+    <path d="M 338 190 C 405 192, 418 235, 415 342 C 378 344, 345 342, 336 342 Z" fill="url(#enamelPost)" stroke="#e2e8f0" stroke-width="1.2"/>
+    <!-- Left Lateral (22) -->
+    <path d="M 418 205 C 448 205, 468 240, 465 325 C 445 328, 428 322, 416 308 Z" fill="url(#enamelPost)" stroke="#e2e8f0" stroke-width="1"/>
+    <!-- Left Canine (23) -->
+    <path d="M 470 215 C 495 220, 515 260, 510 310 C 490 315, 475 295, 468 245 Z" fill="url(#enamelPost)" stroke="#e2e8f0" stroke-width="1"/>
+    <!-- Left First Premolar (24) -->
+    <path d="M 515 225 C 535 230, 550 265, 545 300 C 530 305, 515 285, 510 245 Z" fill="url(#enamelPost)" stroke="#e2e8f0" stroke-width="1"/>
+
+    <!-- Incisal Translucency Glow Layer -->
+    <path d="M 258 332 C 295 344, 328 343, 330 338 C 330 330, 260 324, 258 332 Z" fill="#93c5fd" opacity="0.35"/>
+    <path d="M 340 338 C 342 343, 375 344, 412 332 C 410 324, 340 330, 340 338 Z" fill="#93c5fd" opacity="0.35"/>
+
+    <!-- Radiant Light Reflection Glints -->
+    <circle cx="280" cy="235" r="4" fill="#ffffff" opacity="0.8"/>
+    <path d="M 275 235 L 285 235 M 280 230 L 280 240" stroke="#ffffff" stroke-width="1.5" opacity="0.85"/>
+    <circle cx="370" cy="235" r="4" fill="#ffffff" opacity="0.8"/>
+    <path d="M 365 235 L 375 235 M 370 230 L 370 240" stroke="#ffffff" stroke-width="1.5" opacity="0.85"/>
+  </g>
+
+  <!-- Lower Lip Framing Perfect Smile Arc -->
+  <path d="M 90 310 C 250 410, 550 410, 710 310 C 650 450, 150 450, 90 310 Z" fill="url(#lipGradientAfter)" opacity="0.95"/>
+
+  <!-- Success Annotation Pill -->
+  <g transform="translate(50, 420)">
+    <rect width="250" height="34" rx="8" fill="rgba(8,12,20,0.85)" stroke="#10b981" stroke-width="1"/>
+    <circle cx="18" cy="17" r="5" fill="#10b981"/>
+    <text x="32" y="21" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#a7f3d0">POST-OP: 8 e.max® PORCELAIN VENEERS</text>
+  </g>
+</svg>
